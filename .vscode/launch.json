@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "▶ Chạy Server Dashboard",
+            "request": "launch",
+            "mainClass": "vn.edu.ptit.network.securesocket.ServerGUI"
+        },
+        {
+            "type": "java",
+            "name": "▶ Chạy Client",
+            "request": "launch",
+            "mainClass": "vn.edu.ptit.network.securesocket.ClientGUI"
+        },
+        {
+            "type": "java",
+            "name": "▶ Kịch bản mẫu (Server + 2 Client)",
+            "request": "launch",
+            "mainClass": "vn.edu.ptit.network.securesocket.Main"
+        },
+        {
+            "type": "java",
+            "name": "▶ Chạy Test tự động",
+            "request": "launch",
+            "mainClass": "vn.edu.ptit.network.securesocket.TestSecureSocket"
+        }
+    ]
+}
